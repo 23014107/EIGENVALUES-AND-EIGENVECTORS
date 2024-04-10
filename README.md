@@ -1,4 +1,8 @@
 # EIGENVALUES-AND-EIGENVECTORS
+NAME:RAMYA.P
+REG NO:212223240137
+DEPT:AIML
+
 ## Aim:
 To write a python program to find the Eigenvalues and Eigen Vectors
 ## Equipment’s required:
@@ -11,7 +15,14 @@ To write a python program to find the Eigenvalues and Eigen Vectors
 ### Step 4: 
 
 ## Program:
-
+```
+import numpy as np
+A = np.array([[2, 2],[1, 3]])
+eigenvalues, eigenvectors = np.linalg.eig(A)
+print("Eigen values are", eigenvalues,"and Eigen Vectors are", eigenvectors)
+```
 ## Output:
+![Screenshot 2024-04-10 214123](https://github.com/23014107/EIGENVALUES-AND-EIGENVECTORS/assets/151625620/084f9ff0-18ec-459b-a3dc-5a8cf47bbf82)
+
 ## Result:
 Thus the Eigenvalue and Eigenvector is successfully solved using python program
